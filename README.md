@@ -1,6 +1,6 @@
 #dialog.js
 >
-> 依赖base.js 0.0.2+
+> 依赖base.js
 >
 
 ##tip()
