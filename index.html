@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="dialog.css" />
+		<link rel="stylesheet" type="text/css" href="animate.css" />
+		<style type="text/css">
+			.mask {
+				padding: 30px 20px 0 0;
+				width: 670px;
+				height: 500px;
+			}
+			
+			.mask .close {
+				cursor: pointer;
+				border: 1px solid #000;
+			}
+		</style>
+	</head>
+
+	<body>
+		<button @click="dialog">弹窗</button>
+		<div class="dialog dialog-1 mask hide" data-ani-close-name="zoomOut">
+			<button class="dialog-close close">点击关闭</button>
+		</div>
+	</body>
+	<script src="./js/vue.min.js"></script>
+	<script src="js/base.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript" src="./js/require.js"></script>
+	<script type="text/javascript">
+		require(["./js/main"]);
+	</script>
+
+</html>
